@@ -21,13 +21,16 @@
 
 .sidebar-link:hover {
   background-color: rgb(235, 153, 153);
+  border-bottom-style: double;
+  border-color : white;
 }
 
 .sidebar-link img {
   height: 75px;
   width : 150px;
   margin-bottom: 4px;
-  border-radius: 100px / 50px
+  border-radius: 100px / 50px;
+  border-style: groove;
 }
 
 .sidebar-link div {
